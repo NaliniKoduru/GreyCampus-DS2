@@ -1,0 +1,41 @@
+matrix()
+
+##You have three students in your class (Choose any name you want).
+#Create a matrix using their score in above mentioned subjects (question 4)
+#Student 1 (95, 91, 88), Student 2(96, 94, 97), Student 3(88, 98, 85).
+#Create a matrix and also put column and row names.
+matrix(1:10, byrow = FALSE, nrow = 2)
+matrix(1:9, byrow = TRUE, nrow = 3)
+student_name <- c("Emma", "Amit", "John")
+student_name
+
+subject <- c("Statistics", "Linear Algebra", "Calculus")
+print(subject)
+Emma <- c(95, 91, 88)
+Emma
+Amit <- c(96, 94, 97)
+print(Amit)
+John <- c(88, 98, 85)
+John
+student_name <- c(Emma, Amit, John)
+student_name
+score <- matrix(student_name, nrow = 3, byrow = TRUE)
+score
+student_name <- c("Emma", "Amit", "John")
+student_name
+
+subject <- c("Statistics", "Linear Algebra", "Calculus")
+print(subject)
+colnames(score) <- subject
+subject
+row.names(score) <- student_name
+student_name
+score
+
+mtcars
+head(mtcars)
+head(mtcars, 5)
+tail(mtcars)
+tail(mtcars, 3)
+str(mtcars)
+table(mtcars$gear)
